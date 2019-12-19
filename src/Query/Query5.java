@@ -24,22 +24,22 @@ public class Query5 {
 
     public static void main(String[] args) throws IOException {
 
-        String inputPath1 = "C:\\university\\dbtuning\\pj\\DBMS-Join\\employee.txt";
-        String inputPath2 = "C:\\university\\dbtuning\\pj\\DBMS-Join\\evaluation.txt";
+        String inputPath1 = "C:\\Users\\admin\\Desktop\\Dave\\dbtuning\\DBtuning\\employee.txt";
+        String inputPath2 = "C:\\Users\\admin\\Desktop\\Dave\\dbtuning\\DBtuning\\evaluation.txt";
 
-        String indexOutPath1 = "C:\\university\\dbtuning\\pj\\DBMS-Join\\Query5\\Index\\join.txt";
-        String indexOutPath2 = "C:\\university\\dbtuning\\pj\\DBMS-Join\\Query5\\Index\\result.txt";
-        String MergeOutPath1 = "C:\\university\\dbtuning\\pj\\DBMS-Join\\Query5\\Merge\\join.txt";
-        String MergeOutPath2 = "C:\\university\\dbtuning\\pj\\DBMS-Join\\Query5\\Merge\\result.txt";
-        String BNLoutPath1 = "C:\\university\\dbtuning\\pj\\DBMS-Join\\Query5\\BNL\\join.txt";
-        String BNLoutPath2 = "C:\\university\\dbtuning\\pj\\DBMS-Join\\Query5\\BNL\\result.txt";
-        String HashOutPath1 = "C:\\university\\dbtuning\\pj\\DBMS-Join\\Query5\\Hash\\join.txt";
-        String HashOutPath2 = "C:\\university\\dbtuning\\pj\\DBMS-Join\\Query5\\Hash\\result.txt";
+        String indexOutPath1 = "C:\\Users\\admin\\Desktop\\Dave\\dbtuning\\DBtuning\\Query5\\Index\\join.txt";
+        String indexOutPath2 = "C:\\Users\\admin\\Desktop\\Dave\\dbtuning\\DBtuning\\Query5\\Index\\result.txt";
+        String MergeOutPath1 = "C:\\Users\\admin\\Desktop\\Dave\\dbtuning\\DBtuning\\Query5\\Merge\\join.txt";
+        String MergeOutPath2 = "C:\\Users\\admin\\Desktop\\Dave\\dbtuning\\DBtuning\\Query5\\Merge\\result.txt";
+        String BNLoutPath1 = "C:\\Users\\admin\\Desktop\\Dave\\dbtuning\\DBtuning\\Query5\\BNL\\join.txt";
+        String BNLoutPath2 = "C:\\Users\\admin\\Desktop\\Dave\\dbtuning\\DBtuning\\Query5\\BNL\\result.txt";
+        String HashOutPath1 = "C:\\Users\\admin\\Desktop\\Dave\\dbtuning\\DBtuning\\Query5\\Hash\\join.txt";
+        String HashOutPath2 = "C:\\Users\\admin\\Desktop\\Dave\\dbtuning\\DBtuning\\Query5\\Hash\\result.txt";
 
 
         ArrayList<String> ans = new ArrayList<String>();
-        Data_creation.create_Employee(inputPath1);
-        Data_creation.create_Evaluation(inputPath2);
+//        Data_creation.create_Employee(inputPath1);
+//        Data_creation.create_Evaluation(inputPath2);
 
 
         //Block Nested Loops join

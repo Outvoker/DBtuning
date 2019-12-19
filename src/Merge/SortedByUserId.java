@@ -1,8 +1,8 @@
 package Merge;
 import java.util.Comparator;
-public class SortedByUserId implements Comparator<Orders>{
-    public int compare(Orders order1, Orders order2){
+public class SortedByUserId implements Comparator<Competition>{
+    public int compare(Competition comp1, Competition comp2){
 
-        return order1.getUser_id() - order2.getUser_id();
+        return comp1.getU_id() - comp2.getU_id();
     }
 }
